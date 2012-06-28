@@ -1,6 +1,8 @@
 var versions = process.versions.node.split('.');
 
+// Check node version
 if (versions[0] === '0' && parseInt(versions[1], 10) < 8) {
+  // Do not execute code below
   console.log('require("sys") is throw-safe on this Node.js version');
   process.exit();
 }
