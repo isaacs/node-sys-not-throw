@@ -1,3 +1,10 @@
+var versions = process.versions.node.split('.');
+
+if (versions[0] === '0' && parseInt(versions[1], 10) < 8) {
+  console.log('require("sys") is throw-safe on this Node.js version');
+  process.exit();
+}
+
 var assert = require("assert");
 
 describe('require("sys")', function () {

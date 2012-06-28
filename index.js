@@ -1,3 +1,9 @@
+var versions = process.versions.node.split('.');
+
+if (versions[0] === '0' && parseInt(versions[1], 10) < 8) {
+  return;
+}
+
 var util = require('util');
 
 var msg = 'require("sys-not-throw") is a dirty hack. Please use "util" module instead of "sys" and patch your dependencies.';
