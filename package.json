@@ -1,6 +1,6 @@
 {
   "name": "sys-not-throw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allow using require('sys') on Node.js v0.8.x",
   "keywords": [
     "sys",
