@@ -1,0 +1,1 @@
+Allow using require('sys') with Node.js v0.8.x

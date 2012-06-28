@@ -1,0 +1,30 @@
+{
+  "name": "sys-not-throw",
+  "version": "0.0.0",
+  "description": "Allow using require('sys') on Node.js v0.8.x",
+  "keywords": [
+    "sys",
+    "util",
+    "deprecated",
+    "throws",
+    "dirty",
+    "hack"
+  ],
+  "author": {
+    "name": "Oleg Efimov",
+    "email": "efimovov@gmail.com",
+    "url": "https://github.com/Sannis"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sannis/node-sys-not-throw.git"
+  },
+  "devDependencies": {
+    "mocha" : ">= 1.2.2"
+  },
+  "license": "MIT"
+}
