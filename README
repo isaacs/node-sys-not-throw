@@ -1,1 +1,14 @@
 Allow using require('sys') with Node.js v0.8.x
+
+
+Just use npm to install it:
+
+$> npm install sys-not-throw
+
+
+And include one line on the top of your module:
+
+require("sys-not-throw");
+
+
+P.S. Note, tht this is a temporary hack. Fix your modules and help to fix all Node.js universe.
