@@ -24,7 +24,7 @@
     "url": "git@github.com:Sannis/node-sys-not-throw.git"
   },
   "devDependencies": {
-    "mocha" : ">= 1.2.2"
+    "mocha": ">=3.0.1"
   },
   "license": "MIT"
 }
